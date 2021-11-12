@@ -1,0 +1,76 @@
+{
+  "title": "Injective Liquidity Incentive VIP Program",
+  "description": "The Injective VIP Fee Discount program is the first ever fully on-chain fee discount program rewarding power users of the Injective exchange protocol. The program provides traders tiered trading fee discounts based on a combination of their trailing 30 day trading fee contribution as well as staked INJ amount.\nNote that only trading fees paid in USDT and USDC are eligible towards the fee discount contribution and that trading fees generated from the USDT/USDC spot market are disqualified.\nMore details can be found in the full proposal: https://github.com/InjectiveLabs/governance/tree/master/proposals/2021-11-12-fee-discount ",
+  "schedule":
+  {
+    "bucket_count": 30,
+    "bucket_duration": 86400,
+    "quote_denoms":
+    [
+      "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "peggy0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+    ],
+    "tier_infos":
+    [
+      {
+        "maker_discount_rate": "0.05",
+        "taker_discount_rate": "0.05",
+        "staked_amount": "0",
+        "fee_paid_amount": "100000000"
+      },
+      {
+        "maker_discount_rate": "0.10",
+        "taker_discount_rate": "0.10",
+        "staked_amount": "100000000000000000000",
+        "fee_paid_amount": "100000000"
+      },
+      {
+        "maker_discount_rate": "0.20",
+        "taker_discount_rate": "0.20",
+        "staked_amount": "250000000000000000000",
+        "fee_paid_amount": "200000000"
+      },
+      {
+        "maker_discount_rate": "0.30",
+        "taker_discount_rate": "0.30",
+        "staked_amount": "750000000000000000000",
+        "fee_paid_amount": "500000000"
+      },
+      {
+        "maker_discount_rate": "0.40",
+        "taker_discount_rate": "0.40",
+        "staked_amount": "2000000000000000000000",
+        "fee_paid_amount": "1500000000"
+      },
+      {
+        "maker_discount_rate": "0.50",
+        "taker_discount_rate": "0.50",
+        "staked_amount": "5000000000000000000000",
+        "fee_paid_amount": "3500000000"
+      },
+      {
+        "maker_discount_rate": "0.60",
+        "taker_discount_rate": "0.60",
+        "staked_amount": "12500000000000000000000",
+        "fee_paid_amount": "8000000000"
+      },
+      {
+        "maker_discount_rate": "0.70",
+        "taker_discount_rate": "0.70",
+        "staked_amount": "30000000000000000000000",
+        "fee_paid_amount": "20000000000"
+      },
+      {
+        "maker_discount_rate": "0.80",
+        "taker_discount_rate": "0.80",
+        "staked_amount": "750000000000000000000000",
+        "fee_paid_amount": "30000000000"
+      }
+    ],
+    "disqualified_market_ids":
+    [
+      "0x8b1a4d3e8f6b559e30e40922ee3662dd78edf7042330d4d620d188699d1a9715",
+      "0xabc20971099f5df5d1de138f8ea871e7e9832e3b0b54b61056eae15b09fed678"
+    ]
+  }
+}
