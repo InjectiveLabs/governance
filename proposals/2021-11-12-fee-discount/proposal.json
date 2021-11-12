@@ -15,7 +15,7 @@
       {
         "maker_discount_rate": "0.05",
         "taker_discount_rate": "0.05",
-        "staked_amount": "0",
+        "staked_amount": "1000000000000000000",
         "fee_paid_amount": "100000000"
       },
       {
