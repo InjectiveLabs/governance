@@ -1,6 +1,6 @@
 {
-  "title": "Injective Liquidity Incentive VIP Program",
-  "description": "The Injective VIP Fee Discount program is the first ever fully on-chain fee discount program rewarding power users of the Injective exchange protocol. The program provides traders tiered trading fee discounts based on a combination of their trailing 30 day trading fee contribution as well as staked INJ amount.\nNote that only trading fees paid in USDT and USDC are eligible towards the fee discount contribution and that trading fees generated from the USDT/USDC spot market are disqualified.\nMore details can be found in the full proposal: https://github.com/InjectiveLabs/governance/tree/master/proposals/2021-11-12-fee-discount ",
+  "title": "Injective VIP Fee Discount Program",
+  "description": "The Injective VIP Fee Discount Program is the first ever fully on-chain fee discount program rewarding traders and market makers who choose to take a long-term commitment on Injective Protocol. The program provides network participants with trading fee discounts based on their Tier which is determined by the trailing 30-day trading fee contribution as well as staked INJ amount.\nNote that only trading fees paid in USDT and USDC are eligible towards the fee discount contribution and that trading fees generated from the USDT/USDC spot market are disqualified.\nMore details can be found in the full proposal: https://github.com/InjectiveLabs/governance/tree/master/proposals/2021-11-12-fee-discount",
   "schedule":
   {
     "bucket_count": 30,
