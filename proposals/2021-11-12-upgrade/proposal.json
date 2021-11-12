@@ -1,0 +1,5 @@
+{
+  "title":"Injective Protocol Canonical Chain Enhancement",
+  "description":"This is a software upgrade proposal that includes an enhancement to the Injective Chain. If passed, this proposal would commit the Injective Chain to halting at approximately 14:00 UTC on Nov 15th and starting the upgraded application binary.\\nThis upgrade proposal adds a minor improvement and finalizes the logic of the auction module which manages the native token burns collected from the recurring aggregated exchange fee auctions.\\nMore details can be found in the long form proposal: https://github.com/InjectiveLabs/injective-chain-releases/blob/master/docs/migration/injective-canonical-chain-2.md",
+  "upgrade-height": 4594100
+}
